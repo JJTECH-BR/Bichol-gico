@@ -40,7 +40,6 @@
     "check": "tsc && vite build && wrangler deploy --dry-run",
     "dev": "vite",
     "knip": "knip",
-    "lint": "eslint .",
-    "prebuild": "npm run cf-typegen"
+    "lint": "eslint ."
   }
 }
